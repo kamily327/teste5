@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@media only screen and (max-width: 600px) {
+    body{
+   height: 100vh;
+}
+section{
+    position: relative;
+     right: 836px;
+     width:400px  !important;
+    top: 50px;
+    height: 520px !important;
+
+}
+h1{
+    font-size: 32px !important;
+    position: relative;
+    top: 15px;
+}
+div#borda{
+    width: 120px !important;
+    position: relative;
+    top: 20px;
+}
+input{
+    border-radius: 150px !important;
+}
+input:hover{
+    opacity: 0.8;
+}
+#link:hover{
+    font-size: 17px;
+}
+}
+
+
+
+section {
+    
+    background-color: rgb(16, 17, 17);
+    height: 550px;
+    width: 450px;
+    margin-top: 50px;
+    margin-left: 880px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+body{
+    background-image: linear-gradient(to top, rgba(18, 230, 11, 0.884) ,black 30%);
+     overflow: hidden;
+    
+   
+ 
+}
+h1{
+   
+    color: rgb(255, 255, 255);
+    padding-top: 27px;
+    font-size: 38px;
+    font-family: "Fira Sans Condensed", sans-serif;
+}
+
+
+
+#inputp{
+   color: aliceblue;
+   text-align: center;
+   width: 350px;
+   height: 37px;
+   border-radius: 5px;
+   border: none;
+   background-color: rgba(36, 34, 34, 0.815);
+ 
+ 
+
+}
+
+#inputp:hover , input#altura:hover{
+    opacity: 0.9;
+}
+
+
+input::placeholder{
+ 
+    color: rgba(124, 143, 143, 0.829);
+    padding-left: 250px;
+}
+div#borda {
+   margin-top: -30px;
+   border: 2px solid rgba(55, 255, 0, 0.925);
+   width: 170px ;
+   margin-left: 250px;
+   margin-bottom: 50px;
+}
+input#altura{
+    color: aliceblue;
+    margin-top: 5px;
+    text-align: center;
+    width: 350px;
+    height: 37px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(36, 34, 34, 0.815);
+    margin-bottom: 30px;  
+}
+
+
+
+input#button{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(72, 255, 0);
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    width: 350px;
+    height: 40px;
+    margin-top: 5px;
+}
+    input#button:hover{
+       opacity: 0.6;
+       cursor: pointer;
+    }
+
+#res{
+    color: aliceblue;
+    margin-top: 20px;
+    border-style:hidden;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+#link{ 
+    border-bottom: 3px solid;
+    text-decoration: none;
+    color: rgb(4, 0, 255);
+}
+
+#link:hover{
+    opacity: 0.6;
+    font-size: 17px;
+    
+}
+#pesoimg{
+    position: relative;
+    top: 39px;
+    right: 154px;
+    opacity: 0.7;
+    width: 50px;
+    
+}
+#alturaimg{
+ position: relative;
+ right: 154px;
+ top: 48px;
+ width: 66px;
+ 
+}
+#imgpersonal{
+    position: relative;
+    width: 300px;
+    top: -358px;
+    left: 20px;
+}
+
+#imgcorrida{
+    width: 570px;
+    position: relative;
+    top: -472px;
+    left: 135px;
+
+}
